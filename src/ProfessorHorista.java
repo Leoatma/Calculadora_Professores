@@ -4,13 +4,11 @@ public class ProfessorHorista extends Professor {
 
     private double valorHora;
 
-
     public ProfessorHorista(String nome, String regimePgto, int horasTrabalhadas, double valorHora) {
         super(nome, regimePgto);
         this.horasTrabalhadas = horasTrabalhadas;
         this.valorHora = valorHora;
-    }  
-    
+    }
 
     public int getHorasTrabalhadas() {
         return horasTrabalhadas;

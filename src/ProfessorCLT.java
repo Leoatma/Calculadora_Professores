@@ -1,12 +1,11 @@
 public class ProfessorCLT extends Professor {
 
     private double salarioMensal;
-    
 
     public ProfessorCLT(String nome, String regimePGTO, double salarioMensal) {
         super(nome, regimePGTO);
         this.salarioMensal = salarioMensal;
-    }    
+    }
 
     public double getSalarioMensal() {
         return salarioMensal;
