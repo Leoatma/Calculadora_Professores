@@ -16,20 +16,8 @@ public abstract class Professor {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getRegimePgto() {
-        return regimePgto;
-    }
-
-    public void setRegimePgto(String regimePgto) {
-        this.regimePgto = regimePgto;
-    }
-    
     public abstract double calcularValorAReceber();
-    
+
     @Override
     public String toString() {
         return "Professor " + this.getNome() + ", Valor a Receber = R$" + this.calcularValorAReceber() + "\n";

@@ -48,8 +48,9 @@ public class CalcProfessoresTeste {
                     double salario = scanner.nextDouble();
 
                     ProfessorCLT profCLT = new ProfessorCLT(nomeProfessor, "CLT", salario);
-                    System.out.println(profCLT); // criado metodo toStringna classe abstrata 'Professor', para imprimir
-                                                 // nome e valor
+                    // criado metodo toString() na classe abstrata 'Professor', para imprimir
+                    // nome e valor
+                    System.out.println(profCLT);
                     break;
 
                 case 2:
